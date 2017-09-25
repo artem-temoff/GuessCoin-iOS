@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D874C0228290CE28EA0E353 /* Pods_GuessCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC22629BC4CD34DEB01A35FE /* Pods_GuessCoinTests.framework */; };
 		98B5E5EF1F79325F003F8DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E5EE1F79325F003F8DE9 /* AppDelegate.swift */; };
-		98B5E5F11F79325F003F8DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E5F01F79325F003F8DE9 /* ViewController.swift */; };
+		98B5E5F11F79325F003F8DE9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E5F01F79325F003F8DE9 /* LoginController.swift */; };
 		98B5E5F41F79325F003F8DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B5E5F21F79325F003F8DE9 /* Main.storyboard */; };
 		98B5E5F71F79325F003F8DE9 /* GuessCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E5F51F79325F003F8DE9 /* GuessCoin.xcdatamodeld */; };
 		98B5E5F91F79325F003F8DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B5E5F81F79325F003F8DE9 /* Assets.xcassets */; };
 		98B5E5FC1F79325F003F8DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B5E5FA1F79325F003F8DE9 /* LaunchScreen.storyboard */; };
 		98B5E6071F79325F003F8DE9 /* GuessCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E6061F79325F003F8DE9 /* GuessCoinTests.swift */; };
 		98B5E6121F79325F003F8DE9 /* GuessCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E6111F79325F003F8DE9 /* GuessCoinUITests.swift */; };
+		98B5E6211F793E00003F8DE9 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E6201F793E00003F8DE9 /* RegistrationController.swift */; };
+		98B5E6231F79420F003F8DE9 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E6221F79420F003F8DE9 /* TableController.swift */; };
+		98B5E6251F7942B7003F8DE9 /* GuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B5E6241F7942B7003F8DE9 /* GuessController.swift */; };
+		BA184475F42B85B96EA00E5C /* Pods_GuessCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365317AA8C660AB1ED3092DF /* Pods_GuessCoinUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F63D5A1477187AE491AA3EB /* Pods-GuessCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessCoinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuessCoinTests/Pods-GuessCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		294047338E9172A2304C0E91 /* Pods-GuessCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessCoinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuessCoinUITests/Pods-GuessCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		365317AA8C660AB1ED3092DF /* Pods_GuessCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA6E5359CCA9D8A63201633 /* Pods-GuessCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessCoinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuessCoinUITests/Pods-GuessCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64F55DC81F7FA387CF783E63 /* Pods_GuessCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E19E0357C23D2E886E1ECEB /* Pods-GuessCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessCoinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuessCoinTests/Pods-GuessCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
 		98B5E5EB1F79325F003F8DE9 /* GuessCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B5E5EE1F79325F003F8DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		98B5E5F01F79325F003F8DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98B5E5F01F79325F003F8DE9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		98B5E5F31F79325F003F8DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98B5E5F61F79325F003F8DE9 /* GuessCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuessCoin.xcdatamodel; sourceTree = "<group>"; };
 		98B5E5F81F79325F003F8DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		98B5E60D1F79325F003F8DE9 /* GuessCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B5E6111F79325F003F8DE9 /* GuessCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCoinUITests.swift; sourceTree = "<group>"; };
 		98B5E6131F79325F003F8DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B5E6201F793E00003F8DE9 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		98B5E6221F79420F003F8DE9 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		98B5E6241F7942B7003F8DE9 /* GuessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessController.swift; sourceTree = "<group>"; };
+		98B5E6261F795131003F8DE9 /* DesignableX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DesignableX; sourceTree = "<group>"; };
+		AC22629BC4CD34DEB01A35FE /* Pods_GuessCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75852C49B358BB5EA0C0536 /* Pods-GuessCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuessCoin/Pods-GuessCoin.release.xcconfig"; sourceTree = "<group>"; };
+		F5B57BCF7C3C270C39C04449 /* Pods-GuessCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuessCoin/Pods-GuessCoin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D874C0228290CE28EA0E353 /* Pods_GuessCoinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA184475F42B85B96EA00E5C /* Pods_GuessCoinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186BC303AC8FDB2B2ABBE26C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F55DC81F7FA387CF783E63 /* Pods_GuessCoin.framework */,
+				AC22629BC4CD34DEB01A35FE /* Pods_GuessCoinTests.framework */,
+				365317AA8C660AB1ED3092DF /* Pods_GuessCoinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98B5E5E21F79325E003F8DE9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				98B5E6051F79325F003F8DE9 /* GuessCoinTests */,
 				98B5E6101F79325F003F8DE9 /* GuessCoinUITests */,
 				98B5E5EC1F79325F003F8DE9 /* Products */,
+				CE7DD2A0F54417DE3728AFB7 /* Pods */,
+				186BC303AC8FDB2B2ABBE26C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +131,12 @@
 		98B5E5ED1F79325F003F8DE9 /* GuessCoin */ = {
 			isa = PBXGroup;
 			children = (
+				98B5E6261F795131003F8DE9 /* DesignableX */,
 				98B5E5EE1F79325F003F8DE9 /* AppDelegate.swift */,
-				98B5E5F01F79325F003F8DE9 /* ViewController.swift */,
+				98B5E5F01F79325F003F8DE9 /* LoginController.swift */,
+				98B5E6201F793E00003F8DE9 /* RegistrationController.swift */,
+				98B5E6241F7942B7003F8DE9 /* GuessController.swift */,
+				98B5E6221F79420F003F8DE9 /* TableController.swift */,
 				98B5E5F21F79325F003F8DE9 /* Main.storyboard */,
 				98B5E5F81F79325F003F8DE9 /* Assets.xcassets */,
 				98B5E5FA1F79325F003F8DE9 /* LaunchScreen.storyboard */,
@@ -128,6 +164,19 @@
 			path = GuessCoinUITests;
 			sourceTree = "<group>";
 		};
+		CE7DD2A0F54417DE3728AFB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5B57BCF7C3C270C39C04449 /* Pods-GuessCoin.debug.xcconfig */,
+				C75852C49B358BB5EA0C0536 /* Pods-GuessCoin.release.xcconfig */,
+				8E19E0357C23D2E886E1ECEB /* Pods-GuessCoinTests.debug.xcconfig */,
+				1F63D5A1477187AE491AA3EB /* Pods-GuessCoinTests.release.xcconfig */,
+				5BA6E5359CCA9D8A63201633 /* Pods-GuessCoinUITests.debug.xcconfig */,
+				294047338E9172A2304C0E91 /* Pods-GuessCoinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B5E6161F79325F003F8DE9 /* Build configuration list for PBXNativeTarget "GuessCoin" */;
 			buildPhases = (
+				0BBAB4292DC654DDEA62F877 /* [CP] Check Pods Manifest.lock */,
 				98B5E5E71F79325F003F8DE9 /* Sources */,
 				98B5E5E81F79325F003F8DE9 /* Frameworks */,
 				98B5E5E91F79325F003F8DE9 /* Resources */,
+				4C52B19BF9C81CF9A1B223AF /* [CP] Embed Pods Frameworks */,
+				492CCFE5667C76FD4B509BF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B5E6191F79325F003F8DE9 /* Build configuration list for PBXNativeTarget "GuessCoinTests" */;
 			buildPhases = (
+				85C59DCB1E52D29D4FDD3F41 /* [CP] Check Pods Manifest.lock */,
 				98B5E5FE1F79325F003F8DE9 /* Sources */,
 				98B5E5FF1F79325F003F8DE9 /* Frameworks */,
 				98B5E6001F79325F003F8DE9 /* Resources */,
+				47143F47FB3C4E675D2C8589 /* [CP] Embed Pods Frameworks */,
+				E339ABC5ECD0DC926D046444 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98B5E61C1F79325F003F8DE9 /* Build configuration list for PBXNativeTarget "GuessCoinUITests" */;
 			buildPhases = (
+				04F0400438877C703F8892E5 /* [CP] Check Pods Manifest.lock */,
 				98B5E6091F79325F003F8DE9 /* Sources */,
 				98B5E60A1F79325F003F8DE9 /* Frameworks */,
 				98B5E60B1F79325F003F8DE9 /* Resources */,
+				42DFE2ED51473C2E914E3828 /* [CP] Embed Pods Frameworks */,
+				6824B6858B6F8A431DC64873 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +315,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04F0400438877C703F8892E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessCoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BBAB4292DC654DDEA62F877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42DFE2ED51473C2E914E3828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoinUITests/Pods-GuessCoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47143F47FB3C4E675D2C8589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoinTests/Pods-GuessCoinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		492CCFE5667C76FD4B509BF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoin/Pods-GuessCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C52B19BF9C81CF9A1B223AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoin/Pods-GuessCoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoin/Pods-GuessCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6824B6858B6F8A431DC64873 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoinUITests/Pods-GuessCoinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C59DCB1E52D29D4FDD3F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessCoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E339ABC5ECD0DC926D046444 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuessCoinTests/Pods-GuessCoinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98B5E5E71F79325F003F8DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98B5E5F71F79325F003F8DE9 /* GuessCoin.xcdatamodeld in Sources */,
-				98B5E5F11F79325F003F8DE9 /* ViewController.swift in Sources */,
+				98B5E6251F7942B7003F8DE9 /* GuessController.swift in Sources */,
+				98B5E5F11F79325F003F8DE9 /* LoginController.swift in Sources */,
+				98B5E6211F793E00003F8DE9 /* RegistrationController.swift in Sources */,
+				98B5E6231F79420F003F8DE9 /* TableController.swift in Sources */,
 				98B5E5EF1F79325F003F8DE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +641,11 @@
 		};
 		98B5E6171F79325F003F8DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B57BCF7C3C270C39C04449 /* Pods-GuessCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PASHCX8V8F;
 				INFOPLIST_FILE = GuessCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GuessCoin.GuessCoin;
@@ -442,9 +657,11 @@
 		};
 		98B5E6181F79325F003F8DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75852C49B358BB5EA0C0536 /* Pods-GuessCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PASHCX8V8F;
 				INFOPLIST_FILE = GuessCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GuessCoin.GuessCoin;
@@ -456,6 +673,7 @@
 		};
 		98B5E61A1F79325F003F8DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E19E0357C23D2E886E1ECEB /* Pods-GuessCoinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +690,7 @@
 		};
 		98B5E61B1F79325F003F8DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F63D5A1477187AE491AA3EB /* Pods-GuessCoinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +707,7 @@
 		};
 		98B5E61D1F79325F003F8DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA6E5359CCA9D8A63201633 /* Pods-GuessCoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +723,7 @@
 		};
 		98B5E61E1F79325F003F8DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294047338E9172A2304C0E91 /* Pods-GuessCoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
